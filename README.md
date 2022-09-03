@@ -12,7 +12,8 @@ This manuscript was published in Crop Science in 2020, and it is the research wo
 The following files contain:
 
 1. pheno.rds: the adjusted means (eBLUE values) in a trial-level.
-2. Ginv: the inverse of tge genomic relationship matrix among single-cross hybrids.
+2. Ginv: the inverse of the additive genomic relationship matrix among single-cross hybrids.
 3. CV1_CV2.R: codes to perform CV1/CV2 cross-validations schemes. 
 4. predFA.R: codes to perform genomic prediction and compute basic results.
+5. results.pdf: basic plots with results.
 
