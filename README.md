@@ -9,4 +9,10 @@ This manuscript was published in Crop Science in 2020, and it is the research wo
 3. The first model assumes a compound symmetry covariance matrix, and the second a factor analysis (FA). Both include the genomic relationship (GBLUP model).
 4. In the manuscript, we presented a way to include checks and non-single-hybrid cross materials as fixed effects. There is no magic; one needs to include a dummy variable in the model (see column X1 in the shared phenotypic data). In the shared script, I removed those genotypes and am just considering the 147 single-cross hybrids this time.
 
+The following files contain:
+
+1. pheno.rds: the adjusted means (eBLUE values) in a trial-level.
+2. Ginv: the inverse of tge genomic relationship matrix among single-cross hybrids.
+3. CV1_CV2.R: codes to perform CV1/CV2 cross-validations schemes. 
+4. predFA.R: codes to perform genomic prediction and compute basic results.
 
