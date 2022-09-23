@@ -15,5 +15,5 @@ The following files contain:
 1. pheno.rds: the adjusted means (eBLUE values) in a trial-level.
 2. Ginv.rds: the inverse of the additive genomic relationship matrix among single-cross hybrids.
 3. CV1_CV2.R: codes to perform CV1/CV2 cross-validations schemes. 
-4. predFA.R: codes to perform genomic prediction and compute basic results.
+4. predFA.R: codes to perform genomic prediction within environments.
 5. resultsPred.html: basic R codes & plot with the results of Figure 4 from the manuscript.
