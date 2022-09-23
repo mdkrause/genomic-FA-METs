@@ -19,7 +19,6 @@ library(dplyr)
 library(foreach)
 library(doParallel)
 
-
 I <- c(0.10, 0.20, 0.40)
 rep <- 50
 
