@@ -15,5 +15,5 @@ The following files contain:
 1. pheno.rds: the adjusted means (eBLUE values) in a trial-level.
 2. Ginv.rds: the inverse of the additive genomic relationship matrix among single-cross hybrids.
 3. CV1_CV2.R: codes to perform CV1/CV2 cross-validations schemes. 
-4. predFA.R: codes to perform genomic prediction within environments. Note the code was written to run in a batch jobs (i.e., server). Out of curiosity, it took 7.5 days to be completed in 32 Intel(R) Xeon(R) Gold 6152 CPU @2.10GHz processors with ~120 Gb of RAM memory.
+4. predFA.R: codes to perform genomic prediction within environments. Note the code was written to run in a batch jobs (i.e., server, with a .job file). Out of curiosity, it took 7.5 days to be completed in 32 Intel(R) Xeon(R) Gold 6152 CPU @2.10GHz processors with ~120 Gb of RAM memory.
 5. resultsPred.html: basic R codes & plot with the results of Figure 4 from the manuscript.
