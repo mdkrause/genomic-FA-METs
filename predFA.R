@@ -1,7 +1,5 @@
 
 ########################################################################################################################
-##                                                                                                                    ##
-##                                                                                                                    ##
 ##  Date: September, 2022                                                                                             ##
 ##                                                                                                                    ##
 ##  Boosting predictive ability of tropical maize hybrids via genotype-by-environment interaction under multivariate  ##
