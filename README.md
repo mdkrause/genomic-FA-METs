@@ -1,4 +1,4 @@
-# Boosting predictive ability of tropical maize hybrids viagenotype-by-environment interaction under multivariateGBLUP models
+# Boosting predictive ability of tropical maize hybrids viagenotype-by-environment interaction under multivariate GBLUP models
 
 Krause, et al. (2020); https://doi.org/10.1002/csc2.20253
 
