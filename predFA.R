@@ -17,17 +17,17 @@ library(doParallel)
 I <- c(0.10, 0.20, 0.40)
 rep <- 50
 
-pheno <- readRDS("data/pheno.rds")
-Ginv <- readRDS("data/Ginv.rds")
+pheno <- readRDS("pheno.rds")
+Ginv <- readRDS("Ginv.rds")
 ids <- rownames(Ginv)
 n <- length(ids)
 
 pheno <- pheno %>% filter(geno %in% rownames(Ginv)) %>% droplevels()
 envs <- levels(pheno$envs)
 
-source("data/CV1_CV2.R")
+source("CV1_CV2.R")
 
-doParallel::registerDoParallel(32)
+doParallel::registerDoParallel(32) # carefull here
 
 resultsFA <- c()
 
