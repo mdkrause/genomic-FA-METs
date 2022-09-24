@@ -10,11 +10,6 @@
 ##  Author:    MD Krause        <krause.d.matheus@gmail.com>                                                          ##
 ########################################################################################################################
 
-####
-PREFIX <- "/home/mdkrause/HPC_master/R/"
-setwd(PREFIX)
-####
-
 library(dplyr)
 library(foreach)
 library(doParallel)
@@ -131,4 +126,4 @@ for(MISS in 1:length(envs)){
         }
         
 }
-saveRDS(resultsFA, "./results/resultsFA.rds")
+saveRDS(resultsFA, "resultsFA.rds")
