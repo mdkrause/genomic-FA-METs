@@ -7,8 +7,8 @@ This manuscript was published in Crop Science in 2020, and it is the research wo
 1. Genomic prediction in multi-environment trial (METs) is now performed with a two stage-wise model, with weights equal to 1/SE^2.
 2. In addition to the 5-fold cross-validation (20% of missing hybrids) with 10 replicates, the new script automatically performs analysis for 10%, 20%, and 40% of missing hybrids within environments, with 50 replicates each. Parallel computing was employed. 
 3. The first model assumes a compound symmetry covariance matrix, and the second a factor analysis (FAk), where k = 2. Both models included the genomic relationship (GBLUP, yielding genomic estimated breeding values within environments).
-4. In the manuscript, we presented a modelling way to include checks and non-single-hybrid cross genotypes as fixed effects. There is no magic; one needs to include a dummy variable in the model (see column X1 in the shared phenotypic data). In the shared script, I removed these genotypes and I am just considering the 147 single-cross hybrids.
-5. In the manuscript, we considered 12 environments, and now another one was included (i.e., there are 13 environments).
+4. In the manuscript, we presented a strategy of modeling to include checks and non-single-hybrid cross genotypes as fixed effects. There is no magic; one needs to include a dummy variable in the model (see column X1 in the shared phenotypic data). In the shared script, I removed these genotypes and am just considering the 147 single-cross hybrids.
+5. In the manuscript, we considered 12 environments, and now we included an additional one (i.e., there are 13 environments).
 
 The following files contain:
 
